@@ -1,0 +1,34 @@
+@use "sass:math";
+
+@mixin temas($name, $color, $opacidad, $letra: "Comic Sans MS") {
+    .#{$name}{
+        $backgroundImage: url("../patrones/#{$name}.png");
+        $padding: 5px;
+    }
+
+    .#{$name} article{
+        padding: 10px;
+        margin: 10px;
+        color: $color;
+        opacity: $opacidad;
+        font-family: $letra;
+        
+        @if $opacidad > 0 {
+            background-color: rgba(255, 255, 255, math.div($opacidad, 100));
+        }@else{
+            background-color: rgba(0, 0, 0, math.div(math.abs($opacidad), 100));
+        }
+
+        @if lightness($color) > 50  {
+            text-shadow: 2px 2px 2px black;
+        }@else{
+            text-shadow: 2px 2px 2px black;
+        }
+    }
+}
+
+@include temas(relax, #93a8b7, 60, Verdana);
+@include temas(contrast, #cccccc, -65);
+@include temas(love, #f8afb2, 30, Gabriola);
+@include temas(psico, #1b4d48, 30, "Arial Black");
+@include temas(moderm, #fec87c, -20, Impact);

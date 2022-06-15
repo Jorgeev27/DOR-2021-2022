@@ -1,0 +1,25 @@
+.borde-groove {
+  border-width: 25px;
+  border-color: yellow;
+  border-style: groove;
+}
+
+.borde-dashed {
+  border-width: 10px;
+  border-color: blue;
+  border-style: dashed;
+}
+
+.borde-dotted {
+  border-width: 5px;
+  border-color: red;
+  border-style: dotted;
+}
+
+.borde-double {
+  border-width: 15px;
+  border-color: green;
+  border-style: double;
+}
+
+/*# sourceMappingURL=styles.css.map */

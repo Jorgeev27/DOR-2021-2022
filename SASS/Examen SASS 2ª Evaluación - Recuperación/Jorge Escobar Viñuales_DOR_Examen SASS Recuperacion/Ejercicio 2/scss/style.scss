@@ -1,0 +1,14 @@
+@mixin miclase ($color: #d2f7cb, $tamanio: 4rem) {
+    $cambioColor: $color;
+    $cambioTamanio: $tamanio;
+
+    @for $i from 1 through 6 {
+        .miclase h#{$i}{
+            color: darken($color, $i * 10%);
+            font-size: $tamanio;
+        }
+        $tamanio: $tamanio * 0.8;
+    }
+}
+
+@include miclase();

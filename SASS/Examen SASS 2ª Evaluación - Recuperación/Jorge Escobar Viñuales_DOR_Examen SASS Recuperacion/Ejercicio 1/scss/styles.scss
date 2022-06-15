@@ -1,0 +1,9 @@
+$icons:("groove" 25px yellow groove, "dashed" 10px blue dashed, "dotted" 5px red dotted, "double" 15px green double);
+
+@each $name, $borderWidth, $borderColor, $borderStyle in $icons {
+        .borde-#{$name}{
+            border-width: $borderWidth;
+            border-color: $borderColor;
+            border-style: $borderStyle;
+        }
+}

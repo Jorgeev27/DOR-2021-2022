@@ -1,0 +1,51 @@
+.relax article {
+  padding: 10px;
+  margin: 10px;
+  color: #93a8b7;
+  opacity: 60;
+  font-family: Verdana;
+  background-color: rgba(255, 255, 255, 0.6);
+  text-shadow: 2px 2px 2px black;
+}
+
+.contrast article {
+  padding: 10px;
+  margin: 10px;
+  color: #cccccc;
+  opacity: -65;
+  font-family: "Comic Sans MS";
+  background-color: rgba(0, 0, 0, 0.65);
+  text-shadow: 2px 2px 2px black;
+}
+
+.love article {
+  padding: 10px;
+  margin: 10px;
+  color: #f8afb2;
+  opacity: 30;
+  font-family: Gabriola;
+  background-color: rgba(255, 255, 255, 0.3);
+  text-shadow: 2px 2px 2px black;
+}
+
+.psico article {
+  padding: 10px;
+  margin: 10px;
+  color: #1b4d48;
+  opacity: 30;
+  font-family: "Arial Black";
+  background-color: rgba(255, 255, 255, 0.3);
+  text-shadow: 2px 2px 2px black;
+}
+
+.moderm article {
+  padding: 10px;
+  margin: 10px;
+  color: #fec87c;
+  opacity: -20;
+  font-family: Impact;
+  background-color: rgba(0, 0, 0, 0.2);
+  text-shadow: 2px 2px 2px black;
+}
+
+/*# sourceMappingURL=patrones.css.map */
