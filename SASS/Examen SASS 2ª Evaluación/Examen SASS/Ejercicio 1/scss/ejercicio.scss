@@ -1,0 +1,9 @@
+$icons: ("fancy2" 10pt blue white, "intrepida" 11pt red lightgray, "clasica" 12pt black white, "inversa" 9pt orange silver);
+
+@each $name, $tamanio, $color, $bgcolor in $icons {
+  .card-#{$name} {
+    font-size:$tamanio;
+    color: $color;
+    background-color: $bgcolor;
+  }
+}
