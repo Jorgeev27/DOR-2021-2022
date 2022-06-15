@@ -1,8 +1,0 @@
-$tamanio: 1rem;
-$aumento: 0.2rem;
-@for $i from 0 to 6 {
-    .texto#{$i}{
-        font-size: $tamanio;
-    }
-    $tamanio: $tamanio + $aumento;
-}
